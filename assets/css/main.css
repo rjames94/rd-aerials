@@ -3395,8 +3395,10 @@ input, select, textarea {
 			top: 0;
 		}
 
-		#header img {
-			padding-top: 12px;
+		#logo img {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
 		}
 
 		#header nav {
